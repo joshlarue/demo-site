@@ -1,0 +1,33 @@
+:root {
+    font-size: 62.5%;
+    --h1: clamp(3rem, 1.434vw + 2.541rem, 4.5rem);
+    --h2: clamp(2rem, 0.956vw + 1.694rem, 3rem);
+    --h3: clamp(1.5rem, 0.956vw + 1.194rem, 2.5rem)
+}
+
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    font-size: var(--h3);
+}
+
+.header-wrapper {
+    display: flex;
+
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-link-wrapper {
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+}
