@@ -100,7 +100,10 @@ section {
 }
 .cta-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: clamp(50rem, 23.901vw + 42.352rem, 75rem);
-    
+}
+
+.button {
+    margin-top: auto;
 }
