@@ -45,6 +45,7 @@ p {
 .hero-content {
     flex: 2 1 20rem;
     border: 2px solid red;
+    text-align: left;
 }
 
 .hero-image {
@@ -56,6 +57,7 @@ p {
     display: flex;
     justify-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .info-grid {
@@ -67,5 +69,17 @@ p {
     border: 2px solid red;
     padding: 2rem;
     flex: 1 1 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.quote {
+    width: clamp(50rem, 23.901vw + 42.352rem, 75rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-attribute {
+    margin-left: auto;
+}
