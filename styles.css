@@ -52,3 +52,20 @@ p {
     border: 2px solid red;
 }
 
+.info-wrapper {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.info-grid {
+    display: flex;
+    flex-direction: row;    
+}
+
+.info-box {
+    border: 2px solid red;
+    padding: 2rem;
+    flex: 1 1 10rem;
+}
+
