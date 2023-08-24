@@ -4,6 +4,12 @@
     --h2: clamp(3rem, 1.434vw + 2.541rem, 4.5rem);
     --h3: clamp(2rem, 0.956vw + 1.694rem, 3rem);
     --p: clamp(1.5rem, 0.478vw + 1.347rem, 2rem);
+    --base: hsl(215, 24%, 18%);
+    --text-light: hsl(214, 9%, 75%);
+    --cta-action: hsl(217, 90%, 58%);
+    --text-dark: hsl(215, 24%, 18%);
+    --quote-colour: hsl(220, 12%, 91%);
+    --border-radius: clamp(0.5rem, 0.478vw + 0.347rem, 1rem)    ;
 }
 
 h1 {
@@ -102,8 +108,23 @@ section {
     display: flex;
     justify-content: space-between;
     width: clamp(50rem, 23.901vw + 42.352rem, 75rem);
+    background-color: var(--cta-action);
+    border-radius: var(--border-radius);
+    padding: 3rem;
 }
 
 .button {
     margin-top: auto;
+}
+
+.testimonial {
+    background-color: var(--text-light);
+}
+
+.header {
+    background-color: var(--text-dark);
+}
+
+.hero {
+    background-color: var(--text-dark);
 }
