@@ -5,7 +5,8 @@
     --h3: clamp(2rem, 0.956vw + 1.694rem, 3rem);
     --p: clamp(1.5rem, 0.478vw + 1.347rem, 2rem);
     --base: hsl(215, 24%, 18%);
-    --text-light: hsl(214, 9%, 75%);
+    --text-light: hsl(214, 9%, 100%);
+    --text-light-dark: hsl(214, 9%, 50%);
     --cta-action: hsl(217, 90%, 58%);
     --text-dark: hsl(215, 24%, 18%);
     --quote-colour: hsl(220, 12%, 91%);
@@ -87,6 +88,7 @@ section {
 .testimonial {
     display: flex;
     justify-content: center;
+    background-color: var(--quote-colour);
 }
 
 .quote {
@@ -118,13 +120,26 @@ section {
 }
 
 .testimonial {
-    background-color: var(--text-light);
+    background-color: var(--text-light-dark);
 }
 
 .header {
-    background-color: var(--text-dark);
+    background-color: var(--base);
 }
 
 .hero {
-    background-color: var(--text-dark);
+    background-color: var(--base);
+}
+
+.header-wrapper {
+    color: var(--text-light);
+}
+
+.text-dark {
+    color: var(--text-light-dark);
+    order: 1;
+}
+
+.text-light {
+    color: var(--text-light);
 }
