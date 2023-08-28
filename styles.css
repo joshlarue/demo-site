@@ -116,8 +116,17 @@ section {
     padding: 3rem;
 }
 
-.button {
+.cta-text {
+    border: 2px solid red;
+}
+
+.cta-button {
     margin-top: auto;
+    border: 2px solid red;
+    height: 100%;
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
 }
 
 .testimonial {
