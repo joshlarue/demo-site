@@ -55,13 +55,11 @@ section {
 
 .hero-content {
     flex: 2 1 20rem;
-    border: 2px solid red;
     text-align: left;
 }
 
 .hero-image {
     flex: 1 2 15rem;
-    border: 2px solid red;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -80,7 +78,6 @@ section {
 }
 
 .info-box {
-    border: 2px solid red;
     padding: 2rem;
     flex: 1 1 10rem;
     display: flex;
@@ -98,7 +95,6 @@ section {
     width: clamp(50rem, 23.901vw + 42.352rem, 75rem);
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .quote-attribute {
@@ -120,13 +116,8 @@ section {
     padding: 3rem;
 }
 
-.cta-text {
-    border: 2px solid red;
-}
-
 .cta-button {
     margin-top: auto;
-    border: 2px solid red;
     height: 100%;
     /*width: 100%;*/
     display: flex;
