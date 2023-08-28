@@ -137,6 +137,10 @@ section {
     background-color: var(--text-light-dark);
 }
 
+.quote {
+    width: 50vw;
+}
+
 .header {
     background-color: var(--base);
 }
@@ -156,4 +160,18 @@ section {
 
 .text-light {
     color: var(--text-light);
+}
+
+.action-button {
+    background: var(--cta-action);
+    color: white;
+    padding: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: none;
+    border-radius: var(--border-radius);
+}
+
+.inverted {
+    border: 1px solid white;
 }
