@@ -166,3 +166,9 @@ section {
 .inverted {
     border: 1px solid white;
 }
+
+#output {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
